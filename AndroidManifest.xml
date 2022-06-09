@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1"
+    package="com.sec.android.app.sbrowser.webapk.w6fc0fbe697ee70552e795d8ad506d74a1"
+    platformBuildVersionCode="27"
+    platformBuildVersionName="8.1.0">
+
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:label="Coach App"
+        android:icon="@ref/0x7f030001"
+        android:allowBackup="false"
+        android:supportsRtl="true">
+
+        <activity
+            android:theme="@ref/0x01030010"
+            android:name="org.chromium.webapk.shell_apk.h2o.H2OTransparentLauncherActivity"
+            android:excludeFromRecents="true"
+            android:relinquishTaskIdentity="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:scheme="https"
+                    android:host="webapk-test.internet.apps.samsung.com"
+                    android:pathPrefix="/v3" />
+            </intent-filter>
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.VIEW" />
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+
+                <category
+                    android:name="android.intent.category.WEBAPK" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.jotform.com"
+                    android:pathPrefix="/app/221504814003138" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@ref/0x01030010"
+            android:name="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity"
+            android:relinquishTaskIdentity="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@ref/0x7f050000" />
+        </activity>
+
+        <activity
+            android:theme="@ref/0x01030010"
+            android:name="org.chromium.webapk.shell_apk.h2o.ShipActivity"
+            android:exported="true"
+            android:launchMode="2" />
+
+        <activity
+            android:theme="@ref/0x01030010"
+            android:name="org.chromium.webapk.shell_apk.h2o.H2OMainActivity"
+            android:enabled="false"
+            android:excludeFromRecents="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.shellApkVersion"
+            android:value="6" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.runtimeHost"
+            android:value="com.sec.android.app.sbrowser" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.runtimeHostApplicationName"
+            android:value="Samsung Internet" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.startUrl"
+            android:value="https://www.jotform.com/app/221504814003138?utm_source=jotform_pwa" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.scope"
+            android:value="https://www.jotform.com/app/221504814003138" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.displayMode"
+            android:value="standalone" />
+
+        <meta-data
+            android:name="org.chromium.content_public.common.orientation"
+            android:value="@string/0x16" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.themeColor"
+            android:value="-5905679L" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.backgroundColor"
+            android:value="-735049962L" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.iconId"
+            android:resource="@ref/0x7f030000" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.name"
+            android:value="Coach App" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.shortName"
+            android:value="Coach App" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.webappId"
+            android:value="w6fc0fbe697ee70552e795d8ad506d74a1" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.splashId"
+            android:resource="@ref/0x7f020009" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.iconUrlsAndIconMurmur2Hashes"
+            android:value="https://www.jotform.com/uploads/gmbgetmoney/form_files/221504814003138_mainPWAIcon.62969de124ee24.15692418.png?width=192&height=192 14153875619299872951" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.webManifestUrl"
+            android:value="https://www.jotform.com/app/221504814003138/manifest.json" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapk.shell_apk.badgeIconId"
+            android:resource="@ref/0x7f020001" />
+
+        <meta-data
+            android:name="com.sec.terrace.browser.webapp_icon_adaptive"
+            android:value="false" />
+
+        <service
+            android:name="org.chromium.webapk.shell_apk.WebApkServiceFactory"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.WEBAPK_API" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="org.chromium.webapk.shell_apk.IdentityService"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="org.webapk.IDENTITY_SERVICE_API" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
